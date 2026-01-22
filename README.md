@@ -118,31 +118,18 @@ LOG_LEVEL=INFO
 ## 📊 Project Structure
 
 src/
-
 ├── main/java/cat/itacademy/s04/t02/n03/fruit/
-
 │   ├── controller/
-
 │   ├── dto/
-
 │   ├── exception/
-
 │   ├── mapper/
-
 │   ├── model/
-
 │   ├── repository/
-
 │   ├── service/
-
 │   └── FruitOrderApiApplication.java
-
 └── test/java/cat/itacademy/s04/t02/n03/fruit/
-
-    ├── controller/
-    
+    ├── controller/ 
     ├── service/
-    
     └── FruitOrderApiApplicationTests.java 
 Dockerfile
 docker-compose.yml
