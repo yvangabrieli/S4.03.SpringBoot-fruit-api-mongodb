@@ -16,7 +16,7 @@ import java.util.List;
 public record OrderRequestDTO (
     @NotBlank(message = "Client name cannot be blank") String clientName,
 
-    @NotNull(message = "Delivery date must be in the future") LocalDate deliveryDate,
+    @NotNull(message = "Delivery date cannot be null") LocalDate deliveryDate,
 
     @NotEmpty(message = "Order must have at least one item") List<@Valid OrderItemDTO> items
 ){}
